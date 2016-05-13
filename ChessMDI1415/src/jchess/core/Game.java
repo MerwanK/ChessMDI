@@ -28,6 +28,8 @@ import java.io.FileReader;
 import java.util.Calendar;
 import java.awt.event.ComponentListener;
 import java.awt.event.WindowEvent;
+
+import jchess.core.visitor.VisitorNbPiece;
 import org.apache.log4j.Logger;
 import java.io.IOException;
 import jchess.JChessApp;
@@ -609,6 +611,8 @@ public class Game extends JPanel implements ComponentListener, MouseListener
                             firstMove = false;
                             localSettingsView.disableClock();
                         }
+
+                        new VisitorNbPiece().visit(chessboard);
                     }
 
                 }
