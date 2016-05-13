@@ -16,7 +16,7 @@ public class MoveAlgebrique {
     private String horizontal = "abcdefgh";
     private String vertical = "87654321";
 
-    public void MoveAlgebrique(Chessboard chessboard){
+    public MoveAlgebrique(Chessboard chessboard){
         this.chessboard = chessboard;
     }
 
