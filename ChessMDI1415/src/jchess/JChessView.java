@@ -232,7 +232,7 @@ public class JChessView extends FrameView implements ActionListener, ComponentLi
 
         Player player1 = sett.getPlayerWhite();
         Player player2 = sett.getPlayerBlack();
-        System.out.print(player1.getPlayerType());
+
         player1.setName(player1Name);
         player2.setName(player2Name);
         player1.setType(Player.playerTypes.localUser);//set type of player
