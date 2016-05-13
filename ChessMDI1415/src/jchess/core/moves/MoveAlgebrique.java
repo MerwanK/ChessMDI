@@ -22,7 +22,7 @@ public class MoveAlgebrique {
 
     public void from(String str){
         if(str.length() != 2){
-            System.out.print("from value incorrecte : " + str );
+            System.out.print("erreur de notation algébrique");
         }
         else {
             int index = horizontal.indexOf(str.getBytes()[0]);
@@ -33,7 +33,15 @@ public class MoveAlgebrique {
     }
 
     public void to(String str){
-
+        if(str.length() != 2){
+            System.out.print("erreur de notation algébrique" );
+        }
+        else {
+            int index = horizontal.indexOf(str.getBytes()[0]);
+            this.xTo = index;
+            index = vertical.indexOf(str.getBytes()[1]);
+            this.yTo = index;
+        }
     }
 
     public void move(){

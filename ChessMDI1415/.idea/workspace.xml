@@ -70,13 +70,13 @@
       <file leaf-file-name="MoveAlgebrique.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/jchess/core/moves/MoveAlgebrique.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="442">
+              <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
               <folding>
                 <element signature="e#399#400#0" expanded="true" />
                 <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#864#865#0" expanded="true" />
-                <element signature="e#916#917#0" expanded="true" />
+                <element signature="e#1171#1172#0" expanded="true" />
+                <element signature="e#1223#1224#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -975,13 +975,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jchess/core/moves/MoveAlgebrique.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="442">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
           <folding>
             <element signature="e#399#400#0" expanded="true" />
             <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
           </folding>
         </state>
       </provider>
