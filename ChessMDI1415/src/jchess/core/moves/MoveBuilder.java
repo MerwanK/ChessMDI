@@ -1,5 +1,6 @@
 package jchess.core.moves;
 
+import jchess.core.Chessboard;
 import jchess.core.Square;
 import jchess.core.pieces.Piece;
 
@@ -8,39 +9,37 @@ import jchess.core.pieces.Piece;
  */
 public class MoveBuilder {
 
-    protected Square from;
-    protected Square to;
-    protected Piece movedPiece;
-    protected Piece takenPiece;
-    protected Piece promotedTo;
-    protected boolean wasEnPassant;
-    protected Castling castlingMove;
+    private Chessboard chessboard;
+    private int xFrom;
+    private int yFrom;
+    private int xTo;
+    private int yTo;
 
-    public MoveBuilder(){
-
+    public MoveBuilder(Chessboard chessboard){
+        this.chessboard = chessboard;
     }
 
     public MoveBuilder xFrom(int x){
-
+        xFrom = x;
         return this;
     }
 
     public MoveBuilder yFrom(int y){
-
+        yFrom = y;
         return this;
     }
 
     public MoveBuilder xTo(int x){
-
+        xTo = x;
         return this;
     }
 
     public MoveBuilder yTo(int y){
-
+        yTo = y;
         return this;
     }
 
-    public void build(){
-        Move move;
+    public void move(){
+        chessboard.move(xFrom,yFrom,xTo,yTo);
     }
 }
